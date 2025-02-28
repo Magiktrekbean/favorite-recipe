@@ -87,6 +87,15 @@ transition: all 300ms ease-in-out;}
 footer h1{ font-size: 24px;
 line-height: 2;}
 
+@media(max-width:576px) {
+    h1{font-size: 48px;}
+   .content h2{font-size: 30px; 
+    color:black; }
+    h3{color: black; margin-bottom: 40px;}
+   h1.text-center.footer.m-5 {text-align: start!important;}
+
+    
+}
 
 
 
