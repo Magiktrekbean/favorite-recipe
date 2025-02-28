@@ -27,20 +27,40 @@ border-radius: 10px;
     padding: 40px 80px 0 80px;
     height: 600px
 }
+.custom-header-bg {  
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/158/865/original/df5quem-ab902a9e-1df8-4a08-b189-e4fefe9d0888.png?1740725724);
+    background-size: contain;
+    background-position: center;
+    padding: 40px 80px 0 80px;
+
+}
+.carousel-inner {flex: 1;}
+
+
 h1,h2,h3{ text-align: center;
     color: var(--hero-font-color);
 }
 h1{ font-size: 64px;
 font-weight: bold;
 font-family: var(--font-style-professional);}
-h2{font-family: var(--font-style-handwritten);
+h2 {font-family: var(--font-style-handwritten);
 font-size: 44px;
 }
+
+.content{color: #9B2D2D;
+    font-family: "Pacifico", cursive;
+display: block;
+margin: 0 auto;
+padding: 30px 0;}
+
 p, li{font-family: var(--font-family-cute);
 font-size: 18px;
 line-height: 2;}
+
 strong{font-size: 24px;}
+
 .center{margin: 0 auto;}
+
 .gif-radius{border-radius: 100px 100px 60px 60px;}
 
 .custom-outline-btn {
