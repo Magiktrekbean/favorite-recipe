@@ -21,11 +21,110 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-
+ 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/3dc801ad08.js" crossorigin="anonymous"></script>
-</head>
+<style>
+
+:root{ --hero-font-color: #9B3D4A;
+  --font-style-handwritten:"Homemade Apple", cursive;
+  --font-style-professional: "Source Serif 4", serif;
+  --font-family-cute: "Indie Flower", cursive;
+     }
+  body{width: 100%;
+  background-color: #F3F1EC;}
+  
+  .content{ max-width: 1600px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  }
+  
+  .hero{  
+      padding-bottom: 0;
+      font-family: var(--font-family-cute);
+      font-weight: 400;
+      font-style: normal;
+      
+  }
+  
+  .custom-bg {  
+      background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/158/820/original/custom-background.jpg?1740689362);
+      background-size: cover; 
+      background-position: center;
+      padding: 40px 80px 0 80px;
+      height: 600px
+  }
+  .custom-header-bg {  
+      background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/158/865/original/df5quem-ab902a9e-1df8-4a08-b189-e4fefe9d0888.png?1740725724);
+      background-size: contain;
+      background-position: center;
+      padding: 40px 80px 0 80px;
+  
+  }
+  .carousel-inner {flex: 1;}
+  
+  
+  h1,h2,h3{ text-align: center;
+      color: var(--hero-font-color);
+  }
+  h1{ font-size: 64px;
+  font-weight: bold;
+  font-family: var(--font-style-professional);}
+  h2 {font-family: var(--font-style-handwritten);
+  font-size: 44px;
+  }
+  
+  .content{color: #9B2D2D;
+      font-family: "Pacifico", cursive;
+  display: block;
+  margin: 0 auto;
+  padding: 30px 0;}
+  
+  p, li{font-family: var(--font-family-cute);
+  font-size: 18px;
+  line-height: 2;}
+  
+  strong{font-size: 24px;}
+  
+  .center{margin: 0 auto;}
+  
+  .gif-radius{border-radius: 100px 100px 60px 60px;}
+  
+  .custom-outline-btn {
+      color: #9B3D4A; /* Text color */
+      border: 2px solid #9B3D4A; /* Outline color */
+      background-color: transparent; /* Transparent background */
+  }
+  .custom-btn {
+      color: #9B3D4A; /* Text color */
+   
+      background-color: transparent; /* Transparent background */
+  }
+  
+  .custom-btn:hover, .custom-outline-btn:hover {
+      background-color: #F00E56; /* Background on hover */
+      color: white; /* Text color on hover */
+  }
+  .custom-btn:hover {
+     background-color: transparent;
+      color: #F00E56; 
+  }
+  .container-fluid img:hover{transform: scale(1.2);
+  transition: all 300ms ease-in-out;}
+  footer h1{ font-size: 24px;
+  line-height: 2;}
+  
+  @media(max-width:576px) {
+      h1{font-size: 48px;}
+     .content h2{font-size: 30px; 
+      color:black; }
+      h3{color: black; margin-bottom: 40px;}
+     h1.text-center.footer.m-5 {text-align: start!important;}   
+  }
+  </style>
+
+  </head>
 <body class="content-container ">
     <div class="content pb-3">
    <div class="hero d-flex flex-column justify-content-center rounded-3 custom-bg ">
